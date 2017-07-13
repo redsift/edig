@@ -1,0 +1,12 @@
+{
+  "name": "edig",
+  "display-name": "Edig Sift",
+  "description": "",
+  "author": "Christos Vontas",
+  "version": "1.0.0",
+  "#": "Please use 'redsift npm' instead of system 'npm' ",
+  "scripts": {},
+  "dependencies": {
+    "pify": "^3.0.0"
+  }
+}
