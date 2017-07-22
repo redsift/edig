@@ -23,7 +23,7 @@ module.exports = function (got) {
     const respond = (c, b) => ({
       name: 'api_rpc',
       key: d.key,
-      value: newResponse(c, req.header, b)
+      value: newResponse(c, {'Content-Type': ['text/plain; charset=utf-8']}, b)
     });
     return pify(dns).resolve(domain, 'TXT')
       .then(addr =>{
